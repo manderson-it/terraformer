@@ -22,7 +22,7 @@ RUN export TF_VERSION=$(cat /tmp/terraformer/TF_VERSION) && \
 #############   terraformer      #############
 FROM alpine:3.10.3 AS base
 
-RUN apk add --update bash curl tzdata
+RUN apk add --update bash curl tzdata git
 
 WORKDIR /
 
