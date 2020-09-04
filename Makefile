@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-IMAGE_REPOSITORY := eu.gcr.io/gardener-project/gardener/terraformer
+IMAGE_REPOSITORY := gcr.io/marek-playground/terraformer
 IMAGE_TAG        := $(shell cat VERSION)
 
 .PHONY: build
